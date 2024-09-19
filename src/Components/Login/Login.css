@@ -1,0 +1,49 @@
+.box-div{
+    /* background-color: #a5c0ff; */
+    background: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 35%,#91EAE4 100%);
+    /* height: 100vh; */
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-box h2{
+          text-align: center;
+          /* font-size: 30px; */
+}
+
+.box-form{
+          /* border: 1px solid #3e2525; */
+          border-radius: 9px;
+          padding: 15px;
+          width: 350px;
+          border: 1px solid #fff;
+          background:transparent;
+          /* background-image: url('../../Assets/sign-page-abstract-concept-illustration_335657-2242.avif'); */
+          background-position:top;
+          /* box-shadow:10px 5px 5px rgb(97, 99, 111); */
+          background-repeat: no-repeat;
+          
+}
+.box-form p{
+          color: #fff;
+}
+.box-form p a{
+          color: #fff;
+          text-decoration: none;
+
+}
+
+.box-div .head{
+          font-size: 25px;
+          color: rgba(49, 49, 49, 0.899);
+}
+
+.box-div .form-box  input  ,.btn{
+    padding: 9px;
+    border-radius: 8px;
+    margin: 10px;
+}
